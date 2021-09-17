@@ -1,7 +1,5 @@
 # Easy Loan API
 This is the API which powers the Easy Loan application. The api allows creating user accounts, login/logout of users, creating a loan application and fetching all the loans in the system. <br />
-Live Demo of API: https://easyloan-api-by-arnab.herokuapp.com/loan <br />
-Frontend repo of the App - https://github.com/Arnab-31/Easy-Loan
 
 
 
@@ -17,8 +15,8 @@ Constraints - Email needs to be unique for every user.
 Request Body 
 ```
 {
-    "name": "Arnab",
-    "email": "Arnab@gmail.com",
+    "name": "Aarush",
+    "email": "Aarush@gmail.com",
     "password": "34nnnsk123k"
 }
 ```
@@ -29,8 +27,8 @@ Success Response
     "user": {
         "role": "user",
         "_id": "60891a24b1252c0015705281",
-        "name": "Arnab",
-        "email": "arnab@gmail.com",
+        "name": "Aarush",
+        "email": "Aarush@gmail.com",
         "__v": 1
     },
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDg5MWEyNGIxMjUyYzAwMTU3MDUyODEiLCJpYXQiOjE2MTk1OTc4NjAsImV4cCI6MTYxOTYwMDg2MH0.VaJuIKutpUVIsmqaQksX8o2Pyp6kfmSd_4L8tn1EERU"
@@ -46,7 +44,7 @@ Protection - None
 Request Body 
 ```
 {
-    "email": "arnab1@gmail.com",
+    "email": "aarush1@gmail.com",
     "password": "34nnnsk123k"
 }
 ```
@@ -58,8 +56,8 @@ Success Response
     "user": {
         "role": "user",
         "_id": "608955ebab02e70015816822",
-        "name": "Arnab",
-        "email": "arnab1@gmail.com",
+        "name": "Aarush",
+        "email": "aarush1@gmail.com",
         "__v": 2
     },
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDg5NTVlYmFiMDJlNzAwMTU4MTY4MjIiLCJpYXQiOjE2MTk2MTMyNjYsImV4cCI6MTYxOTYxNjI2Nn0.CCHJ4v9vDPFWyAZOShwAj6F9V2RJctwfu9555zlmgtY"
